@@ -3,25 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mini Juego Soft Robot 🤖</title>
+    <title>Mini Juego Soft Robot Challenge 🤖</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css?v=20260928-1">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&amp;family=Barlow+Condensed:wght@700;800&amp;family=Nunito:wght@400;600;700;800;900&amp;family=Roboto+Slab:wght@700;800&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css?v=20260929-8">
 </head>
 <body>
     <main>
         <header class="hero">
-            <img class="site-logo" src="./assets/logo-roboteca.png" alt="Roboteca">
+            <span class="site-logo"><img src="./assets/logo-roboteca.png" alt="Roboteca"></span>
+            <div class="hero-inner">
+                <h1 class="hero-title" aria-label="Explora tu Soft Robot: Soft Robot Challenge">
+                    <span class="hero-eyebrow" aria-hidden="true">EXPLORA TU</span>
+                    <span class="hero-wordmark" aria-hidden="true">
+                        <span class="hero-soft">SOFT</span>
+                        <span class="hero-robot-lockup">
+                            <span class="hero-robot"><span>R</span><span>O</span><span>B</span><span>O</span><span>T</span></span>
+                            <span class="hero-challenge">SOFT ROBOT CHALLENGE</span>
+                        </span>
+                    </span>
+                </h1>
 
-            <div class="hero-copy">
-                <span class="mission-badge">MINI JUEGO</span>
-                <h1>SOFT ROBOT</h1>
-                <p>¡Mueve tu robot y dibuja una ruta con el AprilTag!</p>
+                <a class="hero-mission" href="https://drive.google.com/file/d/1JeCX8TN29jLuovNiKV7lUgg8xjSPUBgN/view#">
+                    <p><strong>Tu misión:</strong> Investiga cómo la neumática, la elasticidad y la superficie cambian el movimiento de tu robot. Sigue los pasos, registra tus resultados y responde las preguntas.</p>
+                    <div class="mission-factors">
+                        <div class="mission-factor">
+                            <img src="./assets/icon-neumatica.png" alt="">
+                            <span>Ciclos de inflado +<br>desinflado (neumática)</span>
+                        </div>
+                        <div class="mission-factor">
+                            <img src="./assets/icon-superficie.png" alt="">
+                            <span>Superficie (rugosidad)</span>
+                        </div>
+                        <div class="mission-factor">
+                            <img src="./assets/icon-modulo.png" alt="">
+                            <span>Módulos 3D (elasticidad)</span>
+                        </div>
+                    </div>
+                </a>
             </div>
         </header>
 
-        <section class="game-stage" aria-label="Mini juego Soft Robot">
+        <section class="game-stage" aria-label="Mini juego Soft Robot Challenge">
             <img class="decor-robot robot-top-left" src="./assets/softrobot.png" alt="" aria-hidden="true">
             <img class="decor-robot robot-top-right" src="./assets/softrobot.png" alt="" aria-hidden="true">
             <img class="decor-robot robot-bottom-left" src="./assets/softrobot.png" alt="" aria-hidden="true">
@@ -30,8 +54,7 @@
 
             <div class="game-panel">
                 <div class="game-heading">
-                    <span class="game-kicker">TU MINI JUEGO</span>
-                    <h2>SOFT ROBOT</h2>
+                    <h2>SOFT ROBOT CHALLENGE</h2>
                     <p>Encuentra el marcador y lleva el robot hasta la meta.</p>
                 </div>
 
@@ -62,6 +85,7 @@
 
         <footer class="sponsors" aria-label="Instituciones participantes">
             <img src="./assets/huincha-logos.png" alt="Financiado por Ministerio de Ciencia y Ciencia Pública. Desarrollado por Centro de Comunicación de las Ciencias y Universidad Autónoma de Chile.">
+            <p>Proyecto financiado por el programa Ciencia Publica del Ministerio de Ciencia, Tecnologia, Conocimiento e Innovacion</p>
         </footer>
     </main>
 

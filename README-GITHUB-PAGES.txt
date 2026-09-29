@@ -1,4 +1,4 @@
-MINI JUEGO SOFT ROBOT - ROBOTECA
+MINI JUEGO SOFT ROBOT CHALLENGE - ROBOTECA
 
 ESTRUCTURA PARA GITHUB PAGES
 ----------------------------
@@ -13,6 +13,9 @@ Correcto:
   /apriltag_wasm.js
   /apriltag_wasm.wasm
   /assets/logo-roboteca.png
+  /assets/icon-neumatica.png
+  /assets/icon-superficie.png
+  /assets/icon-modulo.png
   /assets/softrobot.png
   /assets/huincha-logos.png
 
